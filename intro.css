@@ -1,0 +1,30 @@
+.intro {
+    width: 100vw;
+    height: 100vh;
+}
+.intro_pic {
+    display: block;
+    background-color: aquamarine;
+}
+.pic {
+    width: 375px;
+    height: 400px;
+    background-color: antiquewhite;
+    position: absolute;
+    top: 110vh;
+    left: 40%;
+}
+.intro_text {
+    display: block;
+    width: 375px;
+    display: inline-block;
+    position: absolute;
+    top: 160vh;
+    left: 40vw;
+    margin-left: 10px;
+    color: gray;
+}
+.intro_title {
+    color: #14616B;
+    font-weight: 50px;
+}
