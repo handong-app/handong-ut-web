@@ -3,27 +3,24 @@
     width: 100vw;
     height: 100vh;
 }
-.intro_pic {
-    display: block;
-    background-color: aquamarine;
-}
 .pic {
-    width: 375px;
-    height: 400px;
-    background-color: antiquewhite;
+    width: 600px;
+    height: 600px;
+    background-color: #0D988C;
     position: absolute;
-    top: 110vh;
-    left: 40%;
+    top: 100vh;
+    left: 33vw;
 }
 .intro_text {
+    /* background-color: antiquewhite; */
     display: block;
-    width: 375px;
+    width: 500px;
     display: inline-block;
     position: absolute;
-    top: 160vh;
-    left: 40vw;
+    top: 165vh;
+    left: 30vw;
     margin-left: 10px;
-    color: gray;
+    /* color: gray; */
 }
 .intro_title {
     color: #14616B;
