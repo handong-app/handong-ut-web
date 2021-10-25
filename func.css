@@ -4,69 +4,50 @@
     height: 150vh;
     /* background-color: aquamarine; */
 }
-/* .title {
-    text-align: center;
-    font-size: 30px;
-    position: absolute;
-    left: 40vw;
-    margin-top: 10px;
-} */
 .func {
-    width: 375px;
-    height: 375px;
+    width: 700px;
+    height: 500px;
     position: absolute;
-    left: 40vw;
+    left: 30vw;
 }
 
 .func_1 {
     background-color: bisque;
     display: block;
-    margin-top: 50px;
+    margin-top: 60px;
 }
 .func_title {
-    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 25px;
 }
 .func_pic {
-    background-color: green;
-    width: 150px;
-    height: 325px;
+    height: 500px;
     position: absolute;
-    left: 12vw;
+    left: 25vw;
+    top: 0vh;
+}
+.func_detail {
+    margin-left: 10px;
 }
 
 .func_2 {
-    background-color: lightgreen;
-    display: block;
-    margin-top: 450px;
+    background-color: bisque;
+    margin-top: 600px;
 }
 .func_2 .func_title {
-    text-align: right;
-    margin-right: 90px;
+    margin-left: 300px;
 }
 .func_2 .func_pic {
-    background-color: green;
-    width: 150px;
-    height: 325px;
     position: absolute;
-    left: 1.5vw;   
+    left: 1vw;   
 }
 .func_2 .func_detail {
-    text-align: right;
-    margin-right: 90px;
+    margin-left: 300px;
 }
 
 .func_3 {
     background-color: bisque;
     display: block;
-    margin-top: 850px;
-}
-.func_title {
-    font-size: 20px;
-}
-.func_pic {
-    background-color: green;
-    width: 150px;
-    height: 325px;
-    position: absolute;
-    left: 12vw;
+    margin-top: 1150px;
 }
