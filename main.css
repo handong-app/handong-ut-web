@@ -16,30 +16,29 @@ body {
 }
 .green_text {
     display: inline-block;
-    background-color: #0D988C;
+    /* background-color: #0D988C; */
     color: white;
-    width: 375px;
+    width: 700px;
     text-align: left;
     position: absolute;
-    top: 425px;
-    left: 40vw;
+    top: 350px;
+    left: 30vw;
 }
 .white_text {
     display: inline-block;
     position: absolute;
-    /* top: 400px; */
-    left: 40vw;
+    left: 30vw;
 }
 .main_pic {
-    width: 175px;
-    height: 378px;
-    background-color: antiquewhite;
+    height: 700px;
     position: absolute;
-    top: 325px;
-    left: 51vw;
+    top: 100px;
+    left: 50vw;
 }
 .title {
     margin-left: 10px;
+    font-size: 70px;
+    font-weight: 700;
 }
 .sub_title {
     margin-left: 10px;
