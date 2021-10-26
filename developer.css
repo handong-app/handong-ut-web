@@ -1,6 +1,6 @@
 .developer_page {
     width: 100vw;
-    height: 200vh;
+    height: 180vh;
 }
 .developer {
   
@@ -17,7 +17,7 @@
 .devel_pic {
     text-align: center;
     height: 400px;
-    margin-left: 40px;
+    margin-left: 30px;
     margin-bottom: 50px;
 }
 .text_head {
