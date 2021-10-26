@@ -12,17 +12,19 @@
     left: 33vw;
 }
 .intro_text {
-    /* background-color: antiquewhite; */
     display: block;
-    width: 500px;
+    /* width: 500px; */
     display: inline-block;
     position: absolute;
     top: 165vh;
     left: 30vw;
     margin-left: 10px;
-    /* color: gray; */
 }
 .intro_title {
     color: #14616B;
     font-weight: 50px;
+}
+.intro_detail {
+    font-size: 20px;
+    color: #43464b;
 }
