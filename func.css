@@ -2,7 +2,6 @@
     display: block;
     width: 100vw;
     height: 150vh;
-    /* background-color: aquamarine; */
 }
 .func {
     width: 700px;
@@ -12,14 +11,21 @@
 }
 
 .func_1 {
-    background-color: bisque;
     display: block;
     margin-top: 60px;
 }
-.func_title {
-    margin-top: 10px;
+.func_num {
+    color: #14616B;
     margin-left: 10px;
-    font-size: 25px;
+    margin-left: 10px;
+    font-size: 50px;
+    font-weight: 300;
+}
+.func_title {
+    color: #14616B;
+    font-weight: 700;
+    margin-left: 10px;
+    font-size: 30px;
 }
 .func_pic {
     height: 500px;
@@ -28,12 +34,18 @@
     top: 0vh;
 }
 .func_detail {
+    color: #43464b;
     margin-left: 10px;
+    margin-top: 10px;
+    width: 23vw;
+    font-size: 20px;
 }
 
 .func_2 {
-    background-color: bisque;
     margin-top: 600px;
+}
+.func_2 .func_num {
+    margin-left: 300px;
 }
 .func_2 .func_title {
     margin-left: 300px;
@@ -47,7 +59,6 @@
 }
 
 .func_3 {
-    background-color: bisque;
     display: block;
     margin-top: 1150px;
 }
