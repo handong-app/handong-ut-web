@@ -1,5 +1,4 @@
 footer {
-    /* height: 50vh; */
     color: white;
     background-color: #14616B;;
     padding: 50px 50px;
@@ -15,7 +14,6 @@ footer .icon img {
 
 .foot .title {
     font-size: 2rem;
-    font-weight: bold;
     width: 10em;
 }
 
