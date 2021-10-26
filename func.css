@@ -4,7 +4,7 @@
     height: 150vh;
 }
 .func {
-    width: 700px;
+    width: 800px;
     height: 500px;
     position: absolute;
     left: 30vw;
@@ -17,27 +17,24 @@
 .func_num {
     color: #14616B;
     margin-left: 10px;
-    margin-left: 10px;
     font-size: 50px;
     font-weight: 300;
 }
 .func_title {
     color: #14616B;
     font-weight: 700;
-    margin-left: 10px;
     font-size: 30px;
 }
 .func_pic {
     height: 500px;
     position: absolute;
-    left: 25vw;
+    left: 27vw;
     top: 0vh;
 }
 .func_detail {
     color: #43464b;
-    margin-left: 10px;
     margin-top: 10px;
-    width: 23vw;
+    width: 26vw;
     font-size: 20px;
 }
 
@@ -52,10 +49,11 @@
 }
 .func_2 .func_pic {
     position: absolute;
-    left: 1vw;   
+    left: 0vw;   
 }
 .func_2 .func_detail {
     margin-left: 300px;
+    width: 25vw;
 }
 
 .func_3 {
