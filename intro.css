@@ -13,12 +13,10 @@
 }
 .intro_text {
     display: block;
-    /* width: 500px; */
     display: inline-block;
     position: absolute;
     top: 165vh;
     left: 30vw;
-    margin-left: 10px;
 }
 .intro_title {
     color: #14616B;
