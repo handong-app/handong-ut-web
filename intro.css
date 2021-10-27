@@ -3,12 +3,12 @@
     height: 100vh;
 }
 .pic {
-    width: 600px;
+    width: 850px;
     height: 600px;
     background-color: #0D988C;
     position: absolute;
     top: 100vh;
-    left: 33vw;
+    left: 25vw;
 }
 .intro_text {
     display: block;
