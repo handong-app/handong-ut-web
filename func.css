@@ -39,6 +39,7 @@
 }
 
 .func_2 {
+    display: block;
     margin-top: 600px;
 }
 .func_2 .func_num {
@@ -59,4 +60,46 @@
 .func_3 {
     display: block;
     margin-top: 1150px;
+}
+
+@media only screen and (max-width: 500px) {
+    .func {
+        width: 350px;
+        position: absolute;
+        left: 3vw;
+    }
+    .func_num {
+        font-size: 25px;
+        margin-left: 0px;
+    }
+    .func_title {
+        font-size: 20px;
+    }
+    .func_detail {
+        font-size: 15px;
+        width: 55vw;
+    }
+    .func_pic {
+        height: 300px;
+        position: absolute;
+        left: 55vw;
+    }
+
+    .func_2 {
+        margin-top: 400px;
+    }
+    .func_2 .func_num {
+        margin-left: 155px;
+    }
+    .func_2 .func_title {
+        margin-left: 155px;
+    }
+    .func_2 .func_detail {
+        margin-left: 155px;
+        width: 55vw;
+    }
+
+    .func_3 {
+        margin-top: 800px;
+    }
 }
