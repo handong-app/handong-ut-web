@@ -19,9 +19,31 @@
 }
 .intro_title {
     color: #14616B;
-    font-weight: 50px;
+    font-weight: 700;
+    font-size: 30px;
 }
 .intro_detail {
     font-size: 20px;
     color: #43464b;
+}
+
+@media only screen and (max-width: 500px) {
+    .pic {
+        width: 350px;
+        height: 400px;
+        position: absolute;
+        left: 4vw;
+    }
+    .intro_text {
+        position: absolute;
+        top: 155vh;
+        left: 5vw;
+    }
+    .intro_title {
+        font-size: 20px;
+    }
+    .intro_detail {
+        font-size: 14px;
+        width: 90vw;
+    }
 }
