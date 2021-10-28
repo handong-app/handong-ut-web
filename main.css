@@ -72,10 +72,13 @@ body {
 }
 
 @media only screen and (max-width: 500px) {
+    .main_green {
+        height: 60vh;
+    }
     .green_area {
         position: absolute;
         left: 5vw;
-        top: 50vh;
+        top: 45vh;
     }
     .white_area {
         position: absolute;
