@@ -62,7 +62,10 @@
     margin-top: 1150px;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 900px) {
+    .func_page {
+        height: 150vh;
+    }
     .func {
         width: 350px;
         position: absolute;

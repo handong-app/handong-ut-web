@@ -37,14 +37,14 @@
     padding-right: 1rem;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 900px) {
     .developer_page {
-        height: 120vh;
+        height: 100vh;
     }
     .developer {
         width: 370px;
         left: 0vw;
-        top: 350vh;
+        top: 300vh;
     }
     .devel_pic {
         height: 220px;

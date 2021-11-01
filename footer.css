@@ -21,7 +21,7 @@ footer .detail {
     color: white;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 900px) {
     footer {
         padding: 50px 20px;
     }

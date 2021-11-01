@@ -2,12 +2,10 @@
     width: 100vw;
     height: 100vh;
 }
-.pic {
+.fourPic {
     width: 850px;
-    height: 600px;
-    background-color: #0D988C;
     position: absolute;
-    top: 100vh;
+    top: 90vh;
     left: 25vw;
 }
 .intro_text {
@@ -27,16 +25,18 @@
     color: #43464b;
 }
 
-@media only screen and (max-width: 500px) {
-    .pic {
+@media only screen and (max-width: 900px) {
+    .intro_page {
+        height: 60vh;
+    }
+    .fourPic {
         width: 350px;
-        height: 400px;
         position: absolute;
-        left: 4vw;
+        left: 5vw;
     }
     .intro_text {
         position: absolute;
-        top: 155vh;
+        top: 125vh;
         left: 5vw;
     }
     .intro_title {
