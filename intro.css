@@ -45,5 +45,6 @@
     .intro_detail {
         font-size: 14px;
         width: 90vw;
-    }
+        line-height: 25px;
+    } 
 }
