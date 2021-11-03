@@ -19,10 +19,12 @@
 .devel_title {
     text-align: center;
     color: #14616B;
+    font-family: 'SBAggroL';
 }
 .text_head {
     margin-top: 1em;
     color: #14616B;
+    font-family: 'SBAggroL';
     font-size: 25px;
     font-weight: 500;
 }
