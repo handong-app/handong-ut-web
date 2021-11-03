@@ -1,21 +1,19 @@
 .intro_page {
-    width: 100vw;
-    height: 100vh;
+    /* height: 60vh; */
+    padding: 2em;
+}
+.intro_pic {
+    margin: 0 20vw;
 }
 .fourPic {
-    width: 850px;
-    position: absolute;
-    top: 90vh;
-    left: 25vw;
+    max-width: 100%;
 }
-.intro_text {
-    display: block;
-    display: inline-block;
-    position: absolute;
-    top: 165vh;
-    left: 30vw;
+.intro_area {
+    max-width: 800px;
+    margin: auto;
 }
 .intro_title {
+    margin-top: 1em;
     color: #14616B;
     font-weight: 700;
     font-size: 30px;
@@ -23,21 +21,13 @@
 .intro_detail {
     font-size: 20px;
     color: #43464b;
+    margin-top: 0.5em;
+    line-height: 1.5em;
 }
 
 @media only screen and (max-width: 900px) {
-    .intro_page {
-        height: 60vh;
-    }
-    .fourPic {
-        width: 350px;
-        position: absolute;
-        left: 5vw;
-    }
-    .intro_text {
-        position: absolute;
-        top: 125vh;
-        left: 5vw;
+    .intro_pic {
+        margin: auto;
     }
     .intro_title {
         font-size: 20px;
@@ -45,6 +35,6 @@
     .intro_detail {
         font-size: 14px;
         width: 90vw;
-        line-height: 25px;
+        line-height: 1.25em;
     } 
 }
