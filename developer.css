@@ -1,71 +1,48 @@
 .developer_page {
-    width: 100vw;
-    height: 180vh;
+    max-width: 800px;
+    margin: auto;
+    padding: 2em;
 }
-.developer {
-    width: 700px;
-    height: 700px;
-    position: absolute;
-    left: 30vw;
-    top: 400vh;
-}
+
 .devel_title {
     text-align: center;
-    color: #14616B;
 }
 .devel_pic {
-    text-align: center;
-    height: 400px;
-    margin-left: 30px;
-    margin-bottom: 50px;
+    width: 100%;
 }
-.text_head {
-    color: #14616B;
-    font-size: 25px;
-    font-weight: 500;
-}
-.devel_intro {
-    font-size: 20px;
-}
-.plan {
-    font-size: 20px;
-} 
 .icon img {
     float: right;
     width: 50px;
     height: 50px;
     padding-right: 1rem;
 }
+.devel_title {
+    text-align: center;
+    color: #14616B;
+}
+.text_head {
+    margin-top: 1em;
+    color: #14616B;
+    font-size: 25px;
+    font-weight: 500;
+}
+.devel_intro, .plan {
+    font-size: 20px;
+}
+
 
 @media only screen and (max-width: 900px) {
-    .developer_page {
-        height: 100vh;
-    }
-    .developer {
-        width: 370px;
-        left: 0vw;
-        top: 300vh;
-    }
-    .devel_pic {
-        height: 220px;
-        margin-left: 15px;
-        margin-bottom: 25px;
-    }
     .text_head {
         font-size: 20px;
-        margin-left: 10px;
     }
     .devel_intro {
         font-size: 15px;
-        margin-left: 10px;
     }
     .plan {
         font-size: 15px;
-        margin-left: 10px;
     }
     .icon img {
         width: 30px;
         height: 30px;
     }
-
 }
