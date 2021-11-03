@@ -67,6 +67,7 @@ body {
 .white_area {
     display: flex;
     position: absolute;
+    float: left;
     left: 0;
     width: 45vw;
     justify-content: flex-end;
@@ -92,7 +93,7 @@ body {
     font-size: 30px;
 }
 .detail {
-    margin-left: 5px;
+    margin-left: 10px;
 }
 
 @media only screen and (max-width: 900px) {
