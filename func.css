@@ -1,22 +1,28 @@
 .func_page {
-    display: block;
-    width: 100vw;
-    height: 150vh;
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
 }
 .func {
-    width: 800px;
-    height: 500px;
-    position: absolute;
-    left: 30vw;
+    display: flex;
 }
 
-.func_1 {
-    display: block;
-    margin-top: 60px;
+.func > div {
+    flex-grow: 1;
+    /* width: 50%; */
+}
+.func_desc2 {
+    display: flex;
+    justify-content: center;
+}
+.func_pic {
+    height: 500px;
+}
+.func_2 {
+    flex-direction: row-reverse;
 }
 .func_num {
     color: #14616B;
-    margin-left: 10px;
     font-size: 50px;
     font-weight: 300;
 }
@@ -25,84 +31,39 @@
     font-weight: 700;
     font-size: 30px;
 }
-.func_pic {
-    height: 500px;
-    position: absolute;
-    left: 27vw;
-    top: 0vh;
+.func_desc {
+    padding: 3em;
 }
 .func_detail {
-    color: #43464b;
-    margin-top: 10px;
-    width: 26vw;
     font-size: 20px;
-}
-
-.func_2 {
-    display: block;
-    margin-top: 600px;
-}
-.func_2 .func_num {
-    margin-left: 300px;
-}
-.func_2 .func_title {
-    margin-left: 300px;
-}
-.func_2 .func_pic {
-    position: absolute;
-    left: 0vw;   
-}
-.func_2 .func_detail {
-    margin-left: 300px;
-    width: 25vw;
-}
-
-.func_3 {
-    display: block;
-    margin-top: 1150px;
+    margin-top: 1em;
+    line-height: 1.5em;
 }
 
 @media only screen and (max-width: 900px) {
     .func_page {
-        height: 150vh;
+        padding: 1em;
     }
     .func {
-        width: 350px;
-        position: absolute;
-        left: 3vw;
+       margin: auto;
+    }
+    .func_desc {
+        margin: 1vw;
+        padding-left: 0em;
+        padding-right: 0em;
+        padding-top: 0.5em;
     }
     .func_num {
         font-size: 25px;
-        margin-left: 0px;
     }
     .func_title {
         font-size: 20px;
     }
     .func_detail {
-        font-size: 15px;
-        width: 55vw;
+        font-size: 13px;
+        width: 50vw;
     }
     .func_pic {
         height: 300px;
-        position: absolute;
-        left: 55vw;
-    }
-
-    .func_2 {
-        margin-top: 400px;
-    }
-    .func_2 .func_num {
-        margin-left: 155px;
-    }
-    .func_2 .func_title {
-        margin-left: 155px;
-    }
-    .func_2 .func_detail {
-        margin-left: 155px;
-        width: 55vw;
-    }
-
-    .func_3 {
-        margin-top: 800px;
     }
 }
