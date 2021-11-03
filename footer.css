@@ -6,7 +6,7 @@ footer {
 }
   
 footer .icon img {
-    float: right;
+    display: inline-block;
     width: 40px;
     height: 40px;
     padding-right: 1rem;
