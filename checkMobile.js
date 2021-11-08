@@ -11,6 +11,17 @@ function checkMobile(){
     } else {
         //아이폰, 안드로이드 외
         return "other";
-    }
-    
+    }   
 }
+
+let url = "https://apps.apple.com/us/app/hut/id1593293986";
+if (checkMobile() === "android") {
+    url = "https://play.google.com/store/apps/details?id=io.github.unbap.handong_ut";
+}
+else if (checkMobile() === "other") {
+    document.getElementById("urlbutton").style.display = "none";
+}
+
+console.log(checkMobile() )
+
+document.getElementById("url").setAttribute("href", url);
