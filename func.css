@@ -18,7 +18,7 @@
 .func_pic {
     height: 500px;
 }
-.func_2 {
+.func_2, .func_4 {
     flex-direction: row-reverse;
 }
 .func_num {
