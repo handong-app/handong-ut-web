@@ -11,6 +11,10 @@ footer .icon img {
     height: 40px;
     padding-right: 1rem;
 }
+footer .email img {
+    width: 45px;
+    height: 45px;
+}
 
 .foot .title {
     font-size: 2rem;
