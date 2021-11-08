@@ -22,26 +22,6 @@ body {
     overflow-x: hidden;
 }
 
-/* .circle {
-    position: absolute;
-    margin-top: -300px;
-    margin-left: -300px;
-    width: 500px;
-    height: 500px;
-    border-radius: 1375px;
-    background-color: #14616B;
-    background-color: #0D988C;
-}
-.empty_circle {
-    position: relative;
-    margin-top: 500px;
-    margin-left: 1400px;
-    width: 500px;
-    height: 500px;
-    border: 5px solid #0D988C;
-    border-radius: 300px;
-} */
-
 .main_green {
     overflow: hidden;
     width: 100vw;
