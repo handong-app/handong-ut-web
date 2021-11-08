@@ -1,0 +1,24 @@
+.button {
+    display: none;
+}
+
+@media only screen and (max-width: 900px) {
+    .button {
+        position: fixed;
+        bottom: 2%;
+        right: 3%;
+
+        border-radius: 50%;
+        padding: 1rem;
+        background-color: #142A77;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .down img {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+    }
+}
