@@ -83,6 +83,13 @@ body {
     font-family: 'SBAggroL';
     margin-left: 10px;
 }
+.down_icon img {
+    display: inline-block;
+    /* width: 40px; */
+    height: 25px;
+    /* padding-right: 1rem; */
+    /* padding-left: 1rem; */
+}
 
 @media only screen and (max-width: 900px) {
     .main_green {
