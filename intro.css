@@ -43,3 +43,39 @@
 .ment_hut {
     color: #14616B;
 }
+
+/* .move {
+    opacity: 0;
+    transition: all .5s ease;
+}
+.move-up {
+    transform: translate(0, 100px);
+} */
+
+@media only screen and (max-width: 900px) {
+    .intro_pic {
+        margin: auto;
+    }
+    .ment {
+        font-size: 15px;
+    }
+    .ment1 {
+        padding-left: 1em;
+        margin: 20px;
+        width: 270px;
+    }
+    .ment2 {
+        margin: 0;
+        margin-top: 20px;
+        padding-right: 0;
+        width: 200px;
+    }
+    .ment3 {
+        padding-left: 0;
+        margin: 0;
+        width: 180px;
+    }
+    .ment4 {
+        font-size: 20px;
+    }
+}
