@@ -32,7 +32,8 @@ body {
 }
 .main_white {
     width: 100vw;
-    height: 35vh;
+    height: 30vh;
+    /* background-color: blueviolet; */
 }
 .green_area {
     display: flex;
