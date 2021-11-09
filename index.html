@@ -26,6 +26,7 @@
     <link rel="stylesheet" href="footer.css"/>
 
     <script src="checkMobile.js" defer></script>
+    <script src="menuchange.js" defer></script>
     <!-- <script src="ment.js"></script> -->
 </head>
 <body>
@@ -45,14 +46,16 @@
             <div class="white_area detail"> 
                 <div class="white_text">
                     북적이고 오래 걸리는 버스 말고 <br> 지금 같이 택시 타고 가실래요? <br>
-                    <span class="down_icon">
-                        <a class="" href="https://apps.apple.com/us/app/hut/id1593293986">
-                          <img class="" src="img/down_ios.png"></a>
-                    </span>
-                    <span class="down_icon">
-                        <a class="" href="https://play.google.com/store/apps/details?id=io.github.unbap.handong_ut">
-                          <img class="" src="img/down_and.png"></a>
-                    </span>
+                    <div class="down_icons">
+                        <span class="down_icon">
+                            <a class="" href="https://apps.apple.com/us/app/hut/id1593293986">
+                              <img class="" src="img/down_ios.png"></a>
+                        </span>
+                        <span class="down_icon">
+                            <a class="" href="https://play.google.com/store/apps/details?id=io.github.unbap.handong_ut">
+                              <img class="" src="img/down_and.png"></a>
+                        </span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -127,10 +130,11 @@
     </div>
 
     <div class="download">
-        <div id="urlbutton" class="button"> 
+        <div id="urlbutton" class="button" id="url" onclick="location.href='url';"> 
             <span class="down">
-                <a id="url" href="https://github.com/unbap">
-                  <img class="" src="img/download.png"> </a>
+                <!-- <a id="url" href="https://github.com/unbap"> -->
+                  <span> HUT 시작하기 </span>
+                <!-- </a> -->
             </span>
         </div>
     </div>
