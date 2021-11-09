@@ -32,6 +32,10 @@ footer .detail {
     .foot .title {
         font-size: 20px;
     }
+    footer .icons {
+        display: flex;
+        justify-content: flex-end;
+    }
     footer .icon img {
         width: 30px;
         height: 30px;
