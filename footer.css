@@ -27,7 +27,7 @@ footer .detail {
 
 @media only screen and (max-width: 900px) {
     footer {
-        padding: 50px 20px;
+        padding: 80px 20px;
     }
     .foot .title {
         font-size: 20px;
@@ -37,6 +37,8 @@ footer .detail {
         justify-content: flex-end;
     }
     footer .icon img {
+        margin-top: 1rem;
+        /* margin-left: 10px; */
         width: 30px;
         height: 30px;
     }
