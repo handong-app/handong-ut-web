@@ -1,6 +1,4 @@
 .intro_page {
-    padding: 2em;
-    padding-top: 5em;
     padding-bottom: 10em;
 }
 .intro_area {
@@ -8,14 +6,13 @@
     margin: auto;
 }
 .ment {
-    margin-top: 1em;
     color: #43464b;
     font-family: 'SBAggroL';
     font-weight: 700;
     font-size: 30px;
 }
 .ment1 {
-    margin: 40px;
+    margin-bottom: 40px;
     margin-left: 5em;
     float: left;
 
@@ -67,13 +64,17 @@
     font-weight: bolder;
 } */
 
-/* .move {
+.move {
     opacity: 0;
     transition: all .5s ease;
 }
 .move-up {
     transform: translate(0, 100px);
-} */
+}
+
+.show {
+    opacity: 1;
+}
 
 @media only screen and (max-width: 900px) {
     .intro_pic {
@@ -83,23 +84,32 @@
         font-size: 12px;
     }
     .ment1 {
-        text-align: center;
+        /* text-align: center; */
+        background-color: #fcf0d2;
         padding-left: 1em;
+        margin-right: 10px;
         margin: 20px;
+        width: 150px;
     }
     .ment2 {
-        text-align: center;
+        margin-left: 10px;
         margin: 20px;
-        padding-left: 1em;
+        width: 150px;
     }
     .ment3 {
-        text-align: center;
-        margin: 20px;
+        background-color: #fcf0d2;
         padding-left: 1em;
+        margin-right: 10px;
+        margin: 20px;
+        width: 150px;
     }
     .ment4 {
         line-height: 20px;
         margin: 20px;
         font-size: 15px;
+    }
+    .ment_main {
+        margin-top: 20px;
+        margin: 10px;
     }
 }
