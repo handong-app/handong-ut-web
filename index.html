@@ -26,11 +26,11 @@
     <link rel="stylesheet" href="footer.css"/>
 
     <script src="checkMobile.js" defer></script>
-    <script src="menuchange.js" defer></script>
-    <!-- <script src="ment.js"></script> -->
+    <script src="ment.js" defer></script>
+    <script src="down.js" defer></script>
 </head>
 <body>
-    <div class="main_page">
+    <div id="main_page" class="main_page">
         <div class="main_green">
             <div class="green_area">
                 <div class="green_text">
@@ -60,13 +60,12 @@
             </div>
         </div>
     </div>
-    <br>
     <div class="intro_page">
         <div class="ment">
-            <div class="ment1 move move-up" data-sa-margin="100"> <span> 버스 오기까지 아직 20분이나 남았다구요? </span> </div>
-            <div class="ment2 move move move-up" data-sa-margin="200"> <span> 버스는 도착했는데 대체 언제쯤 출발할지 모르겠다구요? </span> </div>
-            <div class="ment3 move move move-up" data-sa-margin="300"> <span> 좁게 붙어 서서 가는 버스는 이제 불편하다구요? </span> </div>
-            <div class="ment4"> 
+            <div class="ment1 move move-up"> <span> 버스 오기까지 아직 20분이나 남았다구요? </span> <span class="three"> </span> </div>
+            <div class="ment2 move move move-up"> <span> 버스는 도착했는데 대체 언제쯤 출발할지 모르겠다구요? </span> </div>
+            <div class="ment3 move move move-up"> <span> 좁게 붙어 서서 가는 버스는 이제 불편하다구요? </span> </div>
+            <div class="ment4 move move-up"> 
                 <div class="ment_main"> 
                     그럼 함께 택시 탈 사람들을 구해보세요! <br>
                     바로 지금 <span class="ment_hut"> "HUT" </span> 에서 구해드립니다! 
@@ -129,13 +128,9 @@
         </div>
     </div>
 
-    <div class="download">
-        <div id="urlbutton" class="button" id="url" onclick="location.href='url';"> 
-            <span class="down">
-                <!-- <a id="url" href="https://github.com/unbap"> -->
-                  <span> HUT 시작하기 </span>
-                <!-- </a> -->
-            </span>
+    <div class="download down_move">
+        <div id="urlbutton" class="button" id="url" onclick="openDownloadUrl()"> 
+            <span class="down"> HUT 시작하기 </span>
         </div>
     </div>
 
