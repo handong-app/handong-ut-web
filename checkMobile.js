@@ -14,13 +14,22 @@ function checkMobile(){
     }   
 }
 
-let url = "https://apps.apple.com/us/app/hut/id1593293986";
-if (checkMobile() === "android") {
-    url = "https://play.google.com/store/apps/details?id=io.github.unbap.handong_ut";
+function getDownloadUrl() {
+    let url = "https://apps.apple.com/us/app/hut/id1593293986";
+    if (checkMobile() === "android") {
+        url = "https://play.google.com/store/apps/details?id=io.github.unbap.handong_ut";
+    }
+    else if (checkMobile() === "other") {
+        document.getElementById("urlbutton").style.display = "none";
+    }
+    return url;
 }
-else if (checkMobile() === "other") {
-    document.getElementById("urlbutton").style.display = "none";
+
+function openDownloadUrl() {
+    window.open(getDownloadUrl(), '_blank');
 }
+
+const url = getDownloadUrl();
 
 console.log(checkMobile() )
 
