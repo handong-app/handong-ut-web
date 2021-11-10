@@ -31,6 +31,4 @@ function openDownloadUrl() {
 
 const url = getDownloadUrl();
 
-console.log(checkMobile() )
-
 document.getElementById("url").setAttribute("href", url);
