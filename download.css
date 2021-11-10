@@ -8,19 +8,18 @@
 .show_d {
     opacity: 1;
 }
+.kakao {
+    display: none;
+}
 @media only screen and (max-width: 900px) {
     .button {
         position: fixed;
-        /* bottom: 2%; */
-        /* right: 3%; */
         bottom: 0;
         left: 0;
         right: 0;
 
-        /* border-radius: 50%; */
         padding: 1rem;
         background-color: #142A77;
-        /* background-color: antiquewhite; */
         color: white;
         font-size: 20px;
         font-weight: bolder;
@@ -33,5 +32,20 @@
         display: inline-block;
         width: 30px;
         height: 30px;
+    }
+    .kakao {
+        display: block;
+        position: fixed;
+        top: 0;
+        right: 0;
+    }
+
+    .kakao img {
+        /* padding: 1rem; */
+        margin: 1rem;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        box-shadow: 5px 5px 5px 0px rgba(8, 8, 8, 0.3) ;
     }
 }
