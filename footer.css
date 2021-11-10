@@ -21,13 +21,14 @@ footer .email img {
     width: 10em;
 }
 
-footer .detail {
+footer .f_detail {
+    font-size: 20px;
     color: white;
 }
 
 @media only screen and (max-width: 900px) {
     footer {
-        padding: 80px 20px;
+        padding: 70px 20px;
     }
     .foot .title {
         font-size: 20px;
@@ -36,9 +37,11 @@ footer .detail {
         display: flex;
         justify-content: flex-end;
     }
+    .footer .f_detail {
+        font-size: 12px;
+    }
     footer .icon img {
         margin-top: 1rem;
-        /* margin-left: 10px; */
         width: 30px;
         height: 30px;
     }
