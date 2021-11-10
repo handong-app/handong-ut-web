@@ -3,7 +3,6 @@ const saE = document.querySelectorAll('.download');
 
 const Func = function() {
   for (const element of saE) {
-    console.log(height, window.scrollY)
     if (!element.classList.contains('show_d')) {
       if (window.scrollY > height/5) {
         element.classList.add('show_d');    
