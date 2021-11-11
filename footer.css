@@ -22,6 +22,9 @@ footer .email img {
 }
 
 footer .f_detail {
+    font-family: 'SBAggroL';
+    margin-left: 10px;
+    margin-top: 15px;
     font-size: 20px;
     color: white;
 }
@@ -37,12 +40,15 @@ footer .f_detail {
         display: flex;
         justify-content: flex-end;
     }
-    .footer .f_detail {
-        font-size: 12px;
+    footer .f_detail {
+        font-size: 15px;
     }
     footer .icon img {
         margin-top: 1rem;
         width: 30px;
         height: 30px;
+    }
+    footer .kakao_white {
+        display: none;
     }
 }
