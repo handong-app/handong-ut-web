@@ -11,6 +11,13 @@
 .kakao {
     display: none;
 }
+.kakao img {
+    margin: 1rem;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px 0px rgba(8, 8, 8, 0.3) ;
+}
 @media only screen and (max-width: 900px) {
     .button {
         position: fixed;
@@ -36,16 +43,12 @@
     .kakao {
         display: block;
         position: fixed;
-        top: 0;
+        top: 80%;
         right: 0;
     }
 
     .kakao img {
-        /* padding: 1rem; */
-        margin: 1rem;
         width: 50px;
         height: 50px;
-        border-radius: 50%;
-        box-shadow: 5px 5px 5px 0px rgba(8, 8, 8, 0.3) ;
     }
 }
