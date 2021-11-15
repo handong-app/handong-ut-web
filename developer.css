@@ -1,50 +1,50 @@
 .developer_page {
-    max-width: 800px;
-    margin: auto;
-    padding: 2em;
+  max-width: 800px;
+  margin: auto;
+  padding: 2em;
 }
 
 .devel_title {
-    text-align: center;
+  text-align: center;
 }
 .devel_pic {
-    width: 100%;
+  width: 100%;
 }
 .icon img {
-    float: right;
-    width: 50px;
-    height: 50px;
-    padding-right: 1rem;
+  float: right;
+  width: 50px;
+  height: 50px;
+  padding-right: 1rem;
 }
 .devel_title {
-    text-align: center;
-    color: #14616B;
-    font-family: 'SBAggroL';
+  text-align: center;
+  color: #14616b;
+  font-family: "SBAggroL";
 }
 .text_head {
-    margin-top: 1em;
-    color: #14616B;
-    font-family: 'SBAggroL';
-    font-size: 25px;
-    font-weight: 500;
+  margin-top: 1em;
+  color: #14616b;
+  font-family: "SBAggroL";
+  font-size: 25px;
+  font-weight: 500;
 }
-.devel_intro, .plan {
-    font-size: 20px;
+.devel_intro,
+.plan {
+  font-size: 20px;
 }
-
 
 @media only screen and (max-width: 900px) {
-    .text_head {
-        font-size: 20px;
-    }
-    .devel_intro {
-        font-size: 15px;
-    }
-    .plan {
-        font-size: 15px;
-    }
-    .icon img {
-        width: 30px;
-        height: 30px;
-    }
+  .text_head {
+    font-size: 20px;
+  }
+  .devel_intro {
+    font-size: 15px;
+  }
+  .plan {
+    font-size: 15px;
+  }
+  .icon img {
+    width: 30px;
+    height: 30px;
+  }
 }
