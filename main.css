@@ -1,123 +1,124 @@
 @font-face {
-    font-family: 'SBAggroB';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: "SBAggroB";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 @font-face {
-    font-family: 'SBAggroL';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroL.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: "SBAggroL";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroL.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 @import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
-.notosanskr * { 
-    font-family: 'Noto Sans KR', sans-serif;
+.notosanskr * {
+  font-family: "Noto Sans KR", sans-serif;
 }
 
 html,
 body {
-    font-family: 'Noto Sans KR', sans-serif;
-    margin: 0;
-    overflow-x: hidden;
-    word-break: keep-all;
-    word-wrap: break-word;
+  font-family: "Noto Sans KR", sans-serif;
+  margin: 0;
+  overflow-x: hidden;
+  word-break: keep-all;
+  word-wrap: break-word;
 }
 
 .main_green {
-    overflow: hidden;
-    width: 100vw;
-    height: 65vh;
-    background-color: #14616B;
+  overflow: hidden;
+  width: 100vw;
+  height: 65vh;
+  background-color: #14616b;
 }
 .main_white {
-    width: 100vw;
-    height: 30vh;
-    /* background-color: blueviolet; */
+  width: 100vw;
+  height: 30vh;
+  /* background-color: blueviolet; */
 }
 .green_area {
-    display: flex;
-    color: white;
-    text-align: left;
-    position: absolute;
-    float: left;
-    left: 0;
-    width: 50vw;
-    height: 65vh;
-    justify-content: flex-end;
-    align-items: flex-end;
+  display: flex;
+  color: white;
+  text-align: left;
+  position: absolute;
+  float: left;
+  left: 0;
+  width: 50vw;
+  height: 65vh;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 .green_text {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 .white_area {
-    display: flex;
-    position: absolute;
-    float: left;
-    left: 0;
-    width: 45vw;
-    justify-content: flex-end;
-    align-items: flex-end;
+  display: flex;
+  position: absolute;
+  float: left;
+  left: 0;
+  width: 45vw;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 .Pic_main {
-    float: right;
-    width: 50vw;
+  float: right;
+  width: 50vw;
 }
 .main_pic {
-    height: 700px;
-    position: absolute;
-    top: 100px;
-    left: 50vw;
+  height: 700px;
+  position: absolute;
+  top: 100px;
+  left: 50vw;
 }
 .title {
-    font-family: 'SBAggroB';
-    margin-left: 10px;
-    font-size: 100px;
-    font-weight: 700;
+  font-family: "SBAggroB";
+  margin-left: 10px;
+  font-size: 100px;
+  font-weight: 700;
 }
 .sub_title {
-    font-family: 'SBAggroL';
-    margin-left: 10px;
-    font-size: 50px;
+  font-family: "SBAggroL";
+  margin-left: 10px;
+  font-size: 50px;
 }
 .detail {
-    font-family: 'SBAggroL';
-    font-size: 25px;
-    margin-left: 10px;
-    margin-top: 15px;
+  font-family: "SBAggroL";
+  font-size: 25px;
+  margin-left: 10px;
+  margin-top: 15px;
 }
 .down_icon img {
-    display: inline-block;
-    margin-top: 10px;
-    /* margin-left: 10px; */
-    height: 50px;
+  display: inline-block;
+  margin-top: 10px;
+  /* margin-left: 10px; */
+  height: 50px;
 }
 
 @media only screen and (max-width: 900px) {
-    .main_green {
-        height: 60vh;
-    }
-    .green_area { 
-        height: 60vh;
-    }
-    .main_pic {
-        height: 300px;
-        position: absolute;
-        top: 300px;
-        left: 55vw;
-    }
-    .title {
-        font-size: 50px;
-    }
-    .sub_title {
-        font-size: 20px;
-    }
-    .detail {
-        font-size: 12px;
-    }
-    .down_icon img {
-        display: inline-block;
-        height: 25px;
-    }
-    
+  .main_green {
+    height: 60vh;
+  }
+  .green_area {
+    height: 60vh;
+  }
+  .main_pic {
+    height: 300px;
+    position: absolute;
+    top: 300px;
+    left: 55vw;
+  }
+  .title {
+    font-size: 50px;
+  }
+  .sub_title {
+    font-size: 20px;
+  }
+  .detail {
+    font-size: 12px;
+  }
+  .down_icon img {
+    display: inline-block;
+    height: 25px;
+  }
 }
