@@ -31,4 +31,12 @@ function openDownloadUrl() {
 
 const url = getDownloadUrl();
 
-document.getElementById("url").setAttribute("href", url);
+// document.getElementById("url").setAttribute("href", url);
+
+window.onload = function() {
+    console.log(checkMobile());
+    if (checkMobile() == "ios") {
+        document.getElementsByClassName("down_icon")[0].style.display = "none";
+        document.getElementsByClassName("down_icon")[1].style.display = "none";
+    }
+}
