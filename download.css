@@ -19,6 +19,9 @@
   box-shadow: 5px 5px 5px 0px rgba(8, 8, 8, 0.3);
 }
 @media only screen and (max-width: 900px) {
+  .down_kakao {
+    max-width: 300px;
+  }
   .button {
     position: fixed;
     bottom: 0;
