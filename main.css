@@ -18,6 +18,12 @@ body {
 .main_pic img {
   width: 100%;
 }
+.hand_pic_pc {
+  display: block;
+}
+.hand_pic_mobile {
+  display: none;
+}
 .main_text {
   display: flex;
   justify-content: center;
@@ -30,7 +36,7 @@ body {
 }
 .tit_H {
   color: #01B875;
-  font-weight: 700;
+  font-weight: 600;
   float: left;
 }
 .tit_UT {
@@ -70,14 +76,21 @@ body {
 
 @media only screen and (max-width: 900px) {
   .title {
-    font-size: 50px;
+    font-size: 60px;
   }
   .sub_title {
-    font-size: 20px;
+    margin-top: 25px;
+    font-size: 15px;
   }
-  
   .down_icon img {
     display: inline-block;
-    height: 25px;
+    height: 35px;
+    margin-top: 0px;
+  }
+  .hand_pic_pc {
+    display: none;
+  }
+  .hand_pic_mobile {
+    display: block;
   }
 }
