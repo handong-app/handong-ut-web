@@ -62,31 +62,34 @@
 .de_tail {
   font-weight: 300;
 }
+.intro_mobile {
+  display: none;
+}
 
 @media only screen and (max-width: 900px) {
   .func_page {
-    padding: 1em;
+    /* padding: 1em; */
   }
   .func {
-    margin: auto;
+    display: none;
   }
-  .func_desc {
-    margin: 1vw;
-    padding-left: 0em;
-    padding-right: 0em;
-    padding-top: 0.5em;
+  .intro_mobile {
+    display: flex;
+    justify-content: center;
   }
-  .func_num {
-    font-size: 25px;
+  .intro_m1{
+    margin-top: 50px;
+    margin-left: -75px;
+    height: 450px;
   }
-  .func_title {
-    font-size: 20px;
+  .intro_m2, .intro_m3, .intro_m5 {
+    height: 350px;
   }
-  .func_detail {
-    font-size: 13px;
-    width: 50vw;
+  .intro_m4 {
+    margin-top: 50px;
+    height: 400px;
   }
-  .func_pic {
-    height: 300px;
+  .intro_m5 {
+    margin-left: -50px;
   }
 }
