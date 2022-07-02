@@ -65,7 +65,7 @@ body {
   justify-content: center;
   margin-top: 10px;
 }
-.down_icon img {
+.down_icons img {
   display: inline-block;
   margin-top: 10px;
   margin-left: 10px;
@@ -75,6 +75,9 @@ body {
 }
 
 @media only screen and (max-width: 900px) {
+  .main_text {
+    margin-top: 150px;
+  }
   .title {
     font-size: 60px;
   }
@@ -82,7 +85,10 @@ body {
     margin-top: 25px;
     font-size: 15px;
   }
-  .down_icon img {
+  .icons {
+    margin-bottom: 100px;
+  }
+  .down_icons img {
     display: inline-block;
     height: 35px;
     margin-top: 0px;
