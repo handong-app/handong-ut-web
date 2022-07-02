@@ -18,5 +18,19 @@
 }
 
 @media only screen and (max-width: 900px) {
- 
+  .intro_page {
+    height: 15vh;
+  }
+  .missing_pic {
+    margin-top: -50px;
+    margin-left: 50px;
+    width: 250px;
+  }
+
+  .text_pic {
+    margin-top: 50px;
+    margin-right: 10px;
+    width: 300px;
+  }
+
 }
