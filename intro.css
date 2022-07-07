@@ -1,113 +1,36 @@
 .intro_page {
   padding-bottom: 10em;
-  max-width: 1000px;
-  margin: auto;
+  height: 50vh;
 }
-.ment {
-  color: #43464b;
-  font-family: "SBAggroL";
-  font-weight: 700;
-  font-size: 20px;
+.missing_pic {
+  margin-top: 50px;
+  margin-left: 200px;
+  width: 500px;
 }
-.ment1 {
-  margin-bottom: 40px;
-  margin-left: 5em;
-  float: left;
-
-  padding: 1rem;
-  text-align: center;
-  border-radius: 15px;
-  background-color: #fae3a8;
-}
-.ment2 {
-  clear: both;
-  float: right;
-  margin: 40px;
-
-  padding: 1rem;
-  text-align: center;
-  border-radius: 15px;
-  background-color: #fae3a8;
-}
-.ment3 {
-  clear: both;
-  float: left;
-  margin: 40px;
-  margin-bottom: 100px;
-
-  padding: 1rem;
-  text-align: center;
-  border-radius: 15px;
-  background-color: #fae3a8;
-}
-.ment4 {
-  clear: both;
-  color: black;
-  /* padding: 3em; */
-  font-size: 30px;
-  text-align: center;
-  line-height: 50px;
+.intro_pic2 {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
 }
-.ment_main {
-  padding: 1em;
-  background-color: #14616b;
-  color: white;
-  /* border: 3px solid black; */
-  border-radius: 100px;
-}
-/* .ment_hut {
-    color: #ffd66d;
-    font-weight: bolder;
-} */
-
-.move {
-  opacity: 0;
-  transition: all 1s ease;
-}
-.move-up {
-  transform: translate(0, 100px);
-}
-
-.show {
-  opacity: 1;
+.text_pic {
+  margin-top: 100px;
+  margin-right: 200px;
+  width: 500px;
 }
 
 @media only screen and (max-width: 900px) {
-  .intro_pic {
-    margin: auto;
+  .intro_page {
+    height: 15vh;
   }
-  .ment {
-    font-size: 12px;
+  .missing_pic {
+    margin-top: -50px;
+    margin-left: 50px;
+    width: 250px;
   }
-  .ment1 {
-    /* text-align: center; */
-    background-color: #fcf0d2;
-    padding-left: 1em;
+
+  .text_pic {
+    margin-top: 50px;
     margin-right: 10px;
-    margin: 20px;
-    width: 150px;
+    width: 300px;
   }
-  .ment2 {
-    margin-left: 10px;
-    margin: 20px;
-    width: 150px;
-  }
-  .ment3 {
-    background-color: #fcf0d2;
-    padding-left: 1em;
-    margin-right: 10px;
-    margin: 20px;
-    width: 150px;
-  }
-  .ment4 {
-    line-height: 20px;
-    margin: 20px;
-    font-size: 15px;
-  }
-  .ment_main {
-    margin-top: 20px;
-    margin: 10px;
-  }
+
 }

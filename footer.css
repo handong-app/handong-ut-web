@@ -1,54 +1,25 @@
-footer {
-  color: white;
-  background-color: #14616b;
-  padding: 50px 50px;
-  margin-top: 100px;
+.end_cover img {
+  width: 100%;
+}
+.endding_ment_icon img {
+  width: 600px;
+}
+.end_ment {
+  display: flex;
+  justify-content: center;
+}
+.end_icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
 }
 
-footer .icon img {
-  display: inline-block;
-  width: 40px;
-  height: 40px;
-  padding-right: 1rem;
-}
-footer .email img {
-  width: 45px;
-  height: 45px;
-}
-
-.foot .title {
-  font-size: 2rem;
-  width: 10em;
-}
-
-footer .f_detail {
-  font-family: "SBAggroL";
-  margin-left: 10px;
-  margin-top: 15px;
-  font-size: 20px;
-  color: white;
-}
 
 @media only screen and (max-width: 900px) {
-  footer {
-    padding: 70px 20px;
+  .endding_ment_icon img {
+    display: none;
   }
-  .foot .title {
-    font-size: 20px;
-  }
-  footer .icons {
-    display: flex;
-    justify-content: flex-end;
-  }
-  footer .f_detail {
-    font-size: 15px;
-  }
-  footer .icon img {
-    margin-top: 1rem;
-    width: 30px;
-    height: 30px;
-  }
-  footer .kakao_white {
+  .end_icons {
     display: none;
   }
 }
